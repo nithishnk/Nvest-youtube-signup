@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import Img from '../images/gx_broker.png'
 import './Home.css';
-import Lap from '../images/lap.png'
 import Video from '../Component/Video'
+import PopOver from '../Component/PopOver'
 
 export default class Home extends Component {
   render() {
@@ -13,30 +12,15 @@ export default class Home extends Component {
             <div className="t1">
               <h1 className="text1">Master new skills you can use today</h1></div>
             <div className="text2">Learn how to code websites, build apps and grow your business. Turn your ideas into reality.</div>
-          </div>
+          </div>   
+          <div className="row mx-0">
+          <div className="col-md-10">
          <Video/>
-                 <div >
-            <p class="text3">OVER HOURS OF LESSONS ON HOW TO CODE .</p>
-          </div>
-         <div className="container mr-tp">
-            <form>
-              <div class="row">
-                <div class="col-md-4 col-sm-12">
-                  <div class="form-group ">
-                    <input type="text" class="form-control zx zv" placeholder="Your Name" />
-                  </div>
-               </div>
-                <div class="col-md-4  col-sm-12">
-                 <div class="form-group">
-                   <input type="email" class="form-control zx zb" placeholder="Enter email" />
-                  </div>
-                </div>
-                <div class="col-md-4  col-sm-12">
-                  <button type="submit" class="btn btn-primary zx zc">Sign Up</button>
-                </div>
-             </div>
-            </form>
-          </div>
+         </div>
+         <div className="col-md-2 mar-t">
+         <PopOver/>
+         </div> 
+         </div>
         </center>
       </div>
     )
@@ -80,3 +64,26 @@ export default class Home extends Component {
           <a class="btn btn-primary b1" href="#" role="button">Sign Up</a>
           </div>
     </nav>*/}
+
+    {/*     <div >
+            <p class="text3">OVER HOURS OF LESSONS ON HOW TO CODE .</p>
+          </div>
+         <div className="container mr-tp">
+            <form>
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="form-group ">
+                    <input type="text" class="form-control zx zv" placeholder="Your Name" />
+                  </div>
+               </div>
+                <div class="col-md-4  col-sm-12">
+                 <div class="form-group">
+                   <input type="email" class="form-control zx zb" placeholder="Enter email" />
+                  </div>
+                </div>
+                <div class="col-md-4  col-sm-12">
+                  <button type="submit" class="btn btn-primary zx zc">Sign Up</button>
+                </div>
+             </div>
+            </form>
+    </div>*/}

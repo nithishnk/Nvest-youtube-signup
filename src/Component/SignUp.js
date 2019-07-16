@@ -12,15 +12,16 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import './SignUp.css'
 
 function MadeWithLove() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Built with love by the '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
+      {''}
+      <Link color="inherit" href="#">
+       
       </Link>
-      {' team.'}
+      {''}
     </Typography>
   );
 }
@@ -54,6 +55,7 @@ export default function SignUp() {
   const classes = useStyles();
 
   return (
+    <div className="sub-cl">
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -61,7 +63,7 @@ export default function SignUp() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign up
+          Customer Details
         </Typography>
         <form className={classes.form} noValidate>
           <Grid container spacing={2}>
@@ -104,10 +106,8 @@ export default function SignUp() {
                 variant="outlined"
                 required
                 fullWidth
-                name="password"
-                label="Password"
-                type="password"
-                id="password"
+                name="Phone"
+                label="Phone"
                 autoComplete="current-password"
               />
             </Grid>
@@ -125,20 +125,14 @@ export default function SignUp() {
             color="primary"
             className={classes.submit}
           >
-            Sign Up
+            Submit
           </Button>
-          <Grid container justify="flex-end">
-            <Grid item>
-              <Link href="#" variant="body2">
-                Already have an account? Sign in
-              </Link>
-            </Grid>
-          </Grid>
         </form>
       </div>
       <Box mt={5}>
         <MadeWithLove />
       </Box>
     </Container>
+    </div>
   );
 }
