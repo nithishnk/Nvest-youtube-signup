@@ -26,13 +26,15 @@ export default function PopoverPopupState() {
           </Button>
           <Popover
             {...bindPopover(popupState)}
+            anchorReference="anchorPosition"
+            anchorPosition={{ top: 100, left: 1200}}
             anchorOrigin={{
               vertical: 'bottom',
-              horizontal: 'center',
+              horizontal: 'left',
             }}
             transformOrigin={{
               vertical: 'top',
-              horizontal: 'center',
+              horizontal: 'left',
             }}
           >
             <Typography className={classes.typography}><SignUp/></Typography>
