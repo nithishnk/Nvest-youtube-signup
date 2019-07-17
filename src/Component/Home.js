@@ -6,12 +6,12 @@ import PopOver from '../Component/PopOver'
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="">
      <center>
           <div className="text mr-top">
             <div className="t1">
               <h1 className="text1">Master new skills you can use today</h1></div>
-            <div className="text2">Learn how to code websites, build apps and grow your business. Turn your ideas into reality.</div>
+            <div className="text2">Learn how to code websites, build apps and grow your business.</div>
           </div>   
           <div className="row mx-0">
           <div className="col-md-10">
