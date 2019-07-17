@@ -10,8 +10,8 @@ export default class Home extends Component {
      <center>
           <div className="text mr-top">
             <div className="t1">
-              <h1 className="text1">Master new skills you can use today</h1></div>
-            <div className="text2">Learn how to code websites, build apps and grow your business.</div>
+              <h1 className="text1">Wondering What All The Hype Is About?</h1></div>
+            <div className="text2">Watch This Video & Become A Market Maker Today</div>
           </div>   
           <div className="row mx-0">
           <div className="col-md-8">
