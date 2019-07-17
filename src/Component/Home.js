@@ -6,7 +6,7 @@ import PopOver from '../Component/PopOver'
 export default class Home extends Component {
   render() {
     return (
-      <div className="">
+      <div className="container-fluid">
      <center>
           <div className="text mr-top">
             <div className="t1">
@@ -17,7 +17,7 @@ export default class Home extends Component {
           <div className="col-md-8">
          <Video/>
          </div>
-         <div className="col-md-4 d-flex align-items-center">
+         <div className="col-md-4 algnbt d-flex align-items-center">
          <PopOver/>
          </div> 
          </div>

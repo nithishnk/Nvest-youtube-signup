@@ -27,7 +27,7 @@ export default function PopoverPopupState() {
           <Popover
             {...bindPopover(popupState)}
             anchorReference="anchorPosition"
-            anchorPosition={{ top: 463, left: 1292}}
+            anchorPosition={{ top: 220, left: 1200}}
             anchorOrigin={{
               vertical: 'bottom',
               horizontal: 'left',
