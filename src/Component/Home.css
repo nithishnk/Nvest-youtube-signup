@@ -62,4 +62,19 @@
         color:#186ab4;
     }
 }
- 
+@media only screen and (min-width: 1280px) and (max-width: 1280px)
+{
+    .mar-t{
+        margin-top: 20%;
+margin-left: -8%;
+        
+    }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1440px)
+{
+    .mar-t{
+        margin-top: 20%;
+margin-left: -8%;
+        
+    }
+}
