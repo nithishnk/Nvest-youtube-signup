@@ -14,10 +14,10 @@ export default class Home extends Component {
             <div className="text2">Learn how to code websites, build apps and grow your business.</div>
           </div>   
           <div className="row mx-0">
-          <div className="col-md-10">
+          <div className="col-md-8">
          <Video/>
          </div>
-         <div className="col-md-2 mar-t">
+         <div className="col-md-4 d-flex align-items-center">
          <PopOver/>
          </div> 
          </div>

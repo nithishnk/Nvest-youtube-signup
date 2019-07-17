@@ -7,7 +7,8 @@
 }
 .text1{
     font-weight: 700;
-    font-size: 75px;
+    font-size: 60px;
+    padding: 6px;
     margin-bottom: 20px;
     color:#186ab4;
 }
@@ -21,7 +22,7 @@
     margin-top: 14%;
     margin-left: -14%;
 }
-@media only screen and (max-width: 767px)
+/* @media only screen and (max-width: 767px)
 {
     .mar-t
     {
@@ -61,8 +62,8 @@
         font-weight: 500;
         color:#186ab4;
     }
-}
-@media only screen and (min-width: 1280px) and (max-width: 1280px)
+} */
+/* @media only screen and (min-width: 1280px) and (max-width: 1280px)
 {
     .mar-t{
         margin-top: 20%;
@@ -77,4 +78,4 @@ margin-left: -8%;
 margin-left: -8%;
         
     }
-}
+} */
