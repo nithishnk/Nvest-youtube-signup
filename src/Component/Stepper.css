@@ -1,0 +1,13 @@
+.btn-clr .MuiButton-containedPrimary
+{
+  background-color:#186ab4;
+}
+.btn-clr .MuiButton-containedPrimary:hover
+{
+  background-color:#186ab4;
+}
+
+.btn-clr .MuiStepIcon-root
+{
+  background-color:#186ab4 !important;
+}

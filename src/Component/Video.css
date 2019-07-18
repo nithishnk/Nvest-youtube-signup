@@ -1,14 +1,14 @@
 #video-laptop {
   position: relative;
   padding-top: 13%;
-  padding-bottom: 35%;
+  padding-bottom: 20%;
   height: 0;}
 
 #video-laptop iframe {
   box-sizing: border-box;
   background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
   background-size: contain;
-  padding: 3.1% 18.5% 5.5%;
+  padding: 2.1% 28.3% 3.5%;
   position: absolute;
   top: 0;
   left: 0;

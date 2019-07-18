@@ -3,7 +3,7 @@ import '../Component/Video.css'
 export default class Video extends Component {
   render() {
     return (
-      <div className="container mt-5">
+      <div className="container">
       <div id="video-laptop" > <iframe width="560" height="390" src="https://www.youtube.com/embed/Tsy50WKhgdY" frameborder="0" allowfullscreen
       allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen" 
