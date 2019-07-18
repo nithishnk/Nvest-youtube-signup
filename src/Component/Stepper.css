@@ -21,18 +21,18 @@
 {
   display: flex;
   position: absolute !important;
-  top: 45%;
-  right: 15%;
+  top: 10vw;
+  right: 15vw;
 }
 .pos-btn-left 
 {
   display: flex !important;
   position: absolute !important;
-  top: 45% !important;
-  left: 15% !important;
+  top: 10vw !important;
+  left: 15vw !important;
 }
 
-@media screen and (max-width: 995px) , screen and (max-height: 700px)  
+/* @media screen and (max-width: 995px) , screen and (max-height: 700px)  
 {
   .pos-btn-right
 {
@@ -48,4 +48,4 @@
   top: 55% !important;
   left: 15% !important;
 }
-}
+} */
