@@ -1,7 +1,10 @@
+body{
+    overflow:hidden;
+}
 .log
 {
-    width: 30%;
-    height: 10%;
+    width: 20vw;
+    height: -1vw;
 }
 .mr-top
 {
@@ -18,7 +21,6 @@
 }
 
 .text2{    font-size: 2vw;
-    line-height: 70px;
     font-weight: 500;
     color:#186ab4;
 }
@@ -73,16 +75,3 @@ margin-left: -8%;
     }
 } */
 
-
-@media only screen and (max-width: 600px) 
-{
-
-} 
-
-@media only screen and (min-width: 600px) {} 
-
-@media only screen and (min-width: 768px) {} 
-
-@media only screen and (min-width: 992px) {} 
-
-@media only screen and (min-width: 1200px) {}

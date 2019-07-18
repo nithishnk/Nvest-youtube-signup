@@ -8,15 +8,16 @@ import Logo from '../images/GX.png'
 export default class Home extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid ">
      <center>
-     <img className="log" src={Logo}></img>
+     
           <div className="text mr-top">
             <div className="t1">
-              <h1 className="text1">Wondering What All The Hype Is About?</h1></div>
+            <img className="log mt-5" src={Logo}></img>
+              </div>
             <div className="text2">Watch This Video & Become A Market Maker Today</div>
           </div>  
-          <div className=""> <Stepper/></div> 
+          <div className="fixed-bottom"> <Stepper/></div> 
        {/*   <div className="row mx-0">
           <div className="col-md-8">
          <Video/>
