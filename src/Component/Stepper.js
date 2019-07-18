@@ -68,7 +68,7 @@ export default function HorizontalLabelPositionBelowStepper() {
         ) : (
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
-            <div>
+            <div className="row d-flex justify-content-center">
             <div className="pos-btn-left">
               <Button  
                 disabled={activeStep === 0}

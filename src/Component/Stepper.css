@@ -12,22 +12,40 @@
 {
   background-color:#186ab4 !important;
 }
+.sze
+{
+  font-size: 31px;
+  color: #186ab4;
+}
 .pos-btn-right
 {
   display: flex;
   position: absolute !important;
-  top: 60%;
+  top: 45%;
   right: 15%;
 }
 .pos-btn-left 
 {
   display: flex !important;
   position: absolute !important;
-  top: 60% !important;
+  top: 45% !important;
   left: 15% !important;
 }
-.sze
+
+@media screen and (max-width: 995px) , screen and (max-height: 700px)  
 {
-  font-size: 31px;
-  color: #186ab4;
+  .pos-btn-right
+{
+  display: flex;
+  position: absolute !important;
+  top: 55%;
+  right: 15%;
+}
+.pos-btn-left 
+{
+  display: flex !important;
+  position: absolute !important;
+  top: 55% !important;
+  left: 15% !important;
+}
 }
