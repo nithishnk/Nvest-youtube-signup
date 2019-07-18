@@ -1,6 +1,7 @@
 .btn-clr .MuiButton-containedPrimary
 {
   background-color:#186ab4;
+  
 }
 .btn-clr .MuiButton-containedPrimary:hover
 {
@@ -10,4 +11,23 @@
 .btn-clr .MuiStepIcon-root
 {
   background-color:#186ab4 !important;
+}
+.pos-btn-right
+{
+  display: flex;
+  position: absolute !important;
+  top: 60%;
+  right: 15%;
+}
+.pos-btn-left 
+{
+  display: flex !important;
+  position: absolute !important;
+  top: 60% !important;
+  left: 15% !important;
+}
+.sze
+{
+  font-size: 31px;
+  color: #186ab4;
 }
