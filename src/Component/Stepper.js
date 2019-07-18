@@ -5,7 +5,7 @@ import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import PopOver from '../Component/PopOver'
+import Video1 from '../Component/Video1'
 import SignUp from '../Component/SignUp'
 import Video from '../Component/Video'
 import '../Component/Stepper.css'
@@ -32,9 +32,9 @@ function getStepContent(stepIndex) {
     case 0:
       return <Video/>;
     case 1:
-      return <SignUp/>;
+      return <Video1/>;
     case 2:
-      return '';
+      return <SignUp/>;
     default:
       return '';
   }
@@ -69,7 +69,7 @@ export default function HorizontalLabelPositionBelowStepper() {
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
             <div className="row d-flex justify-content-center">
-            <div className="pos-btn-left">
+           {/* <div className="pos-btn-left">
               <Button  
                 disabled={activeStep === 0}
                 onClick={handleBack}
@@ -77,7 +77,7 @@ export default function HorizontalLabelPositionBelowStepper() {
               >
               <i class="sze fa fa-chevron-left" aria-hidden="true"></i>
               </Button>
-              </div>
+        </div>*/}
               <div>
               <Button className="pos-btn-right"  onClick={handleNext}>
                 {activeStep === steps.length - 1 ? 'Finish' : <i class="sze fa fa-chevron-right" aria-hidden="true"></i>}

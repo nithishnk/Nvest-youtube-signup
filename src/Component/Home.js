@@ -13,9 +13,9 @@ export default class Home extends Component {
      
           <div className="text mr-top">
             <div className="t1">
-            <img className="log mt-5" src={Logo}></img>
+            <img className="log" src={Logo}></img>
               </div>
-            <div className="text2">Watch This Video & Become A Market Maker Today</div>
+            {/*<div className="text2">Gatch This Video & Become A Market Maker Today</div>*/}
           </div>  
           <div className="fixed-bottom"> <Stepper/></div> 
        {/*   <div className="row mx-0">
