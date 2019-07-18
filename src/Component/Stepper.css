@@ -32,20 +32,14 @@
   left: 15vw !important;
 }
 
-/* @media screen and (max-width: 995px) , screen and (max-height: 700px)  
+@media only screen and (max-width: 900px)
 {
   .pos-btn-right
-{
-  display: flex;
-  position: absolute !important;
-  top: 55%;
-  right: 15%;
-}
-.pos-btn-left 
-{
-  display: flex !important;
-  position: absolute !important;
-  top: 55% !important;
-  left: 15% !important;
-}
-} */
+  {
+    display: none;
+  }
+  .pos-btn-left
+  {
+    display: none;
+  }
+}  

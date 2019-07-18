@@ -38,40 +38,12 @@ body{
     }
 
 }
-/* @media only screen and (min-width: 1744px)
+@media only screen and (max-width: 900px)
 {
-    .mar-t{
-        margin-top: 16%;
-        margin-left: -10%;
-        
+    .fixed-bottom
+    {
+        position: relative;
     }
-    .text1{
-        font-weight: 700;
-        font-size: 130px;
-        margin-bottom: 20px;
-        color:#186ab4;
-    }
-    .text2{   
-        font-size: 55px;
-        line-height: 70px;
-        font-weight: 500;
-        color:#186ab4;
-    }
-}  */
-/* @media only screen and (min-width: 1280px) and (max-width: 1280px)
-{
-    .mar-t{
-        margin-top: 20%;
-margin-left: -8%;
-        
-    }
-}
-@media only screen and (min-width: 1440px) and (max-width: 1440px)
-{
-    .mar-t{
-        margin-top: 20%;
-margin-left: -8%;
-        
-    }
-} */
+}  
+
 
