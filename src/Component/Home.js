@@ -11,10 +11,8 @@ export default class Home extends Component {
       <div className="container-fluid ">
      <center>
      
-          <div className="text mr-top">
-            <div className="t1">
+          <div className="row d-flex justify-content-center">
             <img className="log" src={Logo}></img>
-              </div>
             {/*<div className="text2">Gatch This Video & Become A Market Maker Today</div>*/}
           </div>  
           <div className="fixed-bottom"> <Stepper/></div> 
