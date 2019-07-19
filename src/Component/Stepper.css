@@ -38,14 +38,17 @@
   {
     display: flex !important;
   position: absolute !important;
-  top: 10vw !important;
+  top: 1vw !important;
   right: 15vw !important;
   }
-  .pos-btn-left
-  {
-    display: flex !important;
-  position: absolute !important;
-  top: 10vw !important;
-  left: 15vw !important;
-  }
 }  
+@media screen and (min-width: 1024px) , screen and (min-height: 768px)
+{
+  .pos-btn-right
+  {
+display: flex !important;
+  position: absolute !important;
+top: 11vw;
+    right: 12vw;
+  }
+}
