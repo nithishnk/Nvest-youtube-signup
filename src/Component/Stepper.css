@@ -31,7 +31,7 @@
   left: 15vw !important;
 }
 
-@media only screen and (max-width: 800px)
+/* @media only screen and (max-width: 800px)
 {
   .pos-btn-right
   {
@@ -56,6 +56,8 @@ top: 11vw;
   margin-top: 24px;
   margin-bottom: 14rem;
 }
+
+ */
 button:focus {
   outline: 0;
   outline: 0 auto -webkit-focus-ring-color;
