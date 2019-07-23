@@ -9,9 +9,9 @@ export default class Video extends Component {
                 mozallowfullscreen="mozallowfullscreen" 
                 msallowfullscreen="msallowfullscreen" 
                 oallowfullscreen="oallowfullscreen" 
-                webkitallowfullscreen="webkitallowfullscreen"></iframe> </div>
-
-      </div>
+                webkitallowfullscreen="webkitallowfullscreen"></iframe> 
+                </div>
+             </div>
     )
   }
 }

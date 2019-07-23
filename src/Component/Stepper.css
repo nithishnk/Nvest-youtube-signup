@@ -7,15 +7,14 @@
 {
   background-color:#186ab4;
 }
-
 .btn-clr .MuiStepIcon-root
 {
-  background-color:#186ab4 !important;
+  background-color:#186ab4 !important; 
 }
 .sze
 {
   font-size: 31px;
-  color: #186ab4;
+  color: #186ab4; 
 }
 .pos-btn-right
 {
@@ -51,4 +50,16 @@ display: flex !important;
 top: 11vw;
     right: 12vw;
   }
+}
+.jss137 {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 14rem;
+}
+button:focus {
+  outline: 0;
+  outline: 0 auto -webkit-focus-ring-color;
+}
+.btn-clr .MuiButton-root:hover {
+  background-color: rgb(transparent, transparent,transparent);
 }

@@ -69,18 +69,9 @@ export default function HorizontalLabelPositionBelowStepper() {
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
             <div className="row d-flex justify-content-center">
-           {/* <div className="pos-btn-left">
-              <Button  
-                disabled={activeStep === 0}
-                onClick={handleBack}
-                className={classes.backButton}
-              >
-              <i class="sze fa fa-chevron-left" aria-hidden="true"></i>
-              </Button>
-        </div>*/}
               <div>
               <Button className="pos-btn-right"  onClick={handleNext}>
-                {activeStep === steps.length - 1 ? 'Finish' : <i class="sze fa fa-chevron-right" aria-hidden="true"></i>}
+                {activeStep === steps.length - 1  ? <div className="nne"></div> : <i class="sze fa fa-chevron-right" aria-hidden="true"></i>}
               </Button>
             </div>
             </div>
@@ -94,7 +85,6 @@ export default function HorizontalLabelPositionBelowStepper() {
           </Step>
         ))}
       </Stepper>
-      
-    </div>
+     </div>
   );
 }

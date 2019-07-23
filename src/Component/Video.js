@@ -10,7 +10,6 @@ export default class Video extends Component {
                 msallowfullscreen="msallowfullscreen" 
                 oallowfullscreen="oallowfullscreen" 
                 webkitallowfullscreen="webkitallowfullscreen"></iframe> </div>
-
       </div>
     )
   }
