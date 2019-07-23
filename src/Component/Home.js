@@ -8,7 +8,7 @@ render() {
   return (
     <div className="container-fluid ">
      <center>
-     <div className="row d-flex justify-content-center">
+     <div className="d-flex justify-content-center">
      <img className="log" src={Logo}></img>
      </div>  
      <div className="fixed-bottom"> 
